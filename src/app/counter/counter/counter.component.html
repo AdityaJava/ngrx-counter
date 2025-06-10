@@ -4,7 +4,7 @@
       <app-counter-output [count] = "count"></app-counter-output>
     </div>
     <div class="my-3">
-      <app-counter-buttons></app-counter-buttons>
+      <app-counter-buttons (incrementEvent) = "onIncrement()" (decrementEvent) = "onDecrement()" (resetEvent) = "onReset()"></app-counter-buttons>
     </div>
   </div>
 </div>
