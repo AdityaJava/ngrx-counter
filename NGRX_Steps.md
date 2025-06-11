@@ -1,1 +1,2 @@
-1. npm install @ngrx/store
+npm install @ngrx/store
+
